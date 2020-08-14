@@ -30,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        Log.i("Lifecycle", "OnResume called...");
+        Log.i("Lifecycle", "Onresume called...");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        Log.i("Lifecycle", "OnPause called...");
+        Log.i("Lifecycle", "Onpause called...");
     }
 
     @Override
